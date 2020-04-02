@@ -43,6 +43,7 @@ export class MainComponent implements OnInit {
             this.recovered = response['recovered'];
             this.deaths = response['deaths'];
         })
+        this.countryActive = id_country;
     }
 
 }
