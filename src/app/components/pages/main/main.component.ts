@@ -30,7 +30,6 @@ export class MainComponent implements OnInit {
             this.deaths = response['deaths'];
         })
         this.track.all().then(response => {
-            console.log(response);
             this.casesWorld = response['cases'];
             this.recoveredWorld = response['recovered'];
             this.deathsWorld = response['deaths'];
@@ -44,10 +43,6 @@ export class MainComponent implements OnInit {
             this.recovered = response['recovered'];
             this.deaths = response['deaths'];
         })
-        console.log(this.track.all);
-        var hola = this.track.baseURL;
-        this.countryActive = id_country;
-        console.log(id_country);
     }
 
 }

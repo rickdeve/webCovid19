@@ -20,7 +20,7 @@
           viewBox="0 0 2000 1001">
           <path *ngFor="let c of listCountries" [attr.id]="c.id" [attr.d]="c.shape" (click)="selectCountry(c.id)"
             [ngClass]="{'active': c.id == countryActive }" style=" fill:#444444;
-          cursor: pointer;" />
+          cursor: pointer; stroke:#ffffff" />
         </svg>
       </div>
       <div class="col-md-12 text-center"> <img src="{{url}}" alt="" class="img-responsive rounded-circle"
@@ -33,21 +33,21 @@
           <div class="card bg-light">
             <div class="card-body">
               <h6 class="card-title text-center">CASOS </h6>
-              <p class="card-text text-center">{{cases}} <img src="../../../../assets/img/cases.png" alt=""
+              <p class="card-text text-center">{{cases}} <img src="./assets/img/cases.png" alt=""
                   class="img-responsive" alt="Responsive image"></p>
             </div>
           </div>
           <div class="card bg-light">
             <div class="card-body ">
               <h6 class="card-title text-center">RECUPERADOS</h6>
-              <p class="card-text text-center">{{recovered}} <img src="../../../../assets/img/recovered.png" alt=""
+              <p class="card-text text-center">{{recovered}} <img src="./assets/img/recovered.png" alt=""
                   class="img-responsive" alt="Responsive image"></p>
             </div>
           </div>
           <div class="card bg-light">
             <div class="card-body">
               <h6 class="card-title text-center">MUERTOS</h6>
-              <p class="card-text text-center">{{deaths}} <img src="../../../../assets/img/deaths.png" alt=""
+              <p class="card-text text-center">{{deaths}} <img src="./assets/img/deaths.png" alt=""
                   class="img-responsive" alt="Responsive image"></p>
             </div>
           </div>
@@ -55,27 +55,27 @@
       </div>
 
       <div class="col-md-12">
-        <h1 class="text-center" style="font-size: 30px;">Datos Mundiales <img src="../../../../assets/img/world.png"
+        <h1 class="text-center" style="font-size: 30px;">Datos Mundiales <img src="./assets/img/world.png"
             alt="" class="img-responsive" alt="Responsive image"></h1>
         <div class="card-columns">
           <div class="card bg-light">
             <div class="card-body">
               <h6 class="card-title text-center">CASOS EN EL MUNDO</h6>
-              <p class="card-text text-center">{{casesWorld}} <img src="../../../../assets/img/casesworld.png" alt=""
+              <p class="card-text text-center">{{casesWorld}} <img src="./assets/img/casesworld.png" alt=""
                   class="img-responsive" alt="Responsive image"></p>
             </div>
           </div>
           <div class="card bg-light">
             <div class="card-body">
               <h6 class="card-title text-center">RECUPERADOS EN EL MUNDO</h6>
-              <p class="card-text text-center">{{recoveredWorld}} <img src="../../../../assets/img/recoveredworld.png"
+              <p class="card-text text-center">{{recoveredWorld}} <img src="./assets/img/recoveredworld.png"
                   alt="" class="img-responsive" alt="Responsive image"></p>
             </div>
           </div>
           <div class="card bg-light">
             <div class="card-body">
               <h6 class="card-title text-center">MUERTOS EN EL MUNDO</h6>
-              <p class="card-text text-center">{{deathsWorld}} <img src="../../../../assets/img/rip.png" alt=""
+              <p class="card-text text-center">{{deathsWorld}} <img src="./assets/img/rip.png" alt=""
                   class="img-responsive" alt="Responsive image"></p>
             </div>
           </div>
@@ -84,20 +84,9 @@
     </div>
     <footer class="row">
        <div class="col-md-12 text-center">
-         <a href=""><img id="a" class="img-responsive" src="../../../../assets/img/GitHub-Mark-32px.png" alt=""></a>
+         <a href=""><img id="a" class="img-responsive" src="./assets/img/GitHub-Mark-32px.png" alt=""></a>
        </div>
     </footer>
   </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
 </body>
 </html>
