@@ -6,12 +6,12 @@ Este proyecto consiste en obtener las estadisticas del virus COVI19 por cada pai
 ## Creado en
 <ul>
   <li>Angular 8</li>
-  li>Angular 8</li>
-  li>TypeScript</li>
+  <li>Angular 8</li>
+  <li>TypeScript</li>
 </ul>
 
 ## Credits
 <ul>
   <li>[NovelCovid](https://github.com/NovelCOVID/API)</li>
-  li>[iconfinder](https://www.iconfinder.com/p/coronavirus-awareness-icons)</li>
+  <li>[iconfinder](https://www.iconfinder.com/p/coronavirus-awareness-icons)</li>
 </ul>
