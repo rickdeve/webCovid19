@@ -34,10 +34,10 @@ export class MainComponent implements OnInit {
             this.recoveredWorld = response['recovered'];
             this.deathsWorld = response['deaths'];
         })
-        this.url = 'https://www.countryflags.io/'+this.countryActive+'/flat/64.png';
+        this.url = 'https://www.countryflags.io/' + this.countryActive + '/flat/64.png';
     }
     selectCountry(id_country) {
-        this.url = 'https://www.countryflags.io/'+id_country+'/flat/64.png';
+        this.url = 'https://www.countryflags.io/' + id_country + '/flat/64.png';
         this.track.countries(id_country).then(response => {
             this.cases = response['cases'];
             this.recovered = response['recovered'];
